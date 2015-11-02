@@ -6,6 +6,7 @@ import time
 import sys
 
 #Connection to Mongo DB example:
+#Test number 1: Test number 1 Francois Doray - ct 
 
 print 'Number of arguments:', len(sys.argv), 'arguments.'
 print 'Argument List:', str(sys.argv)

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-A="Salut"
+A="Test number 2: Francois Doray"
 B="end"
 echo $A 
 
