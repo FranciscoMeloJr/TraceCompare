@@ -1,0 +1,22 @@
+//Simulating the Example 4.4
+conn = new Mongo();
+db = conn.getDB("SoccerLeague");
+
+var d1, n1, a;
+var d2, n2;
+
+for (i = 0; i < 10000; i++) 
+{
+	d1 = new Date();
+	n1 = d.getTime(); 
+	var a = {"name":"Buffalo Bills", "Conference":"American", "YearEstablished:":1965, "Number":i};
+
+	d2 = new Date();
+	n2 = d.getTime(); 
+
+	print(n1-n2);
+	db.Teams.save(a);
+}
+
+
+
